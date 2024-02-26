@@ -10,3 +10,6 @@ commonLabels:
 
 resources:
 - ../../../apps/jv-ambulance-ufe
+
+components:
+ - ../../../components/version-developers
