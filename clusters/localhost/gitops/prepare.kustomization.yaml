@@ -4,8 +4,16 @@ metadata:
   name: prepare
   namespace: wac-hospital
 spec:
-  wait: true
-  interval: 42s
+  healthChecks:
+    - apiVersion: apps/v1
+      kind: Deployment
+      name: envoy-gateway
+      namespace: envoy-gateway-system
+    - apiVersion: apps/v1
+      kind: Deployment
+      name: ufe-controller
+      namespace: wac-hospital
+  interval: 120s
   path: clusters/localhost/prepare
   prune: true
   sourceRef:
