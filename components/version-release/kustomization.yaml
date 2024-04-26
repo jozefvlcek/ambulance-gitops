@@ -3,7 +3,10 @@ kind: Component
 images:
 - name: jozefvlcekbp/ambulance-ufe
   newName: jozefvlcekbp/ambulance-ufe
-  newTag: 1.0.0  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+  newTag: 1.1.0  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+- name: jozefvlcekbp/ambulance-wl-webapi
+  newName: jozefvlcekbp/ambulance-wl-webapi
+  newTag: 1.1.0
 
 replacements:
  - targets:
