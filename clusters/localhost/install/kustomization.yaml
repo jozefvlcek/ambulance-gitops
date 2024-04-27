@@ -12,6 +12,7 @@ resources:
 - ../../../apps/jv-ambulance-ufe
 - ../../../apps/jv-ambulance-webapi
 - ../../../apps/mongo-express
+- ../../../apps/http-echo
 
 components:
  - ../../../components/version-developers
